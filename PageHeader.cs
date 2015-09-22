@@ -23,6 +23,8 @@ namespace IndianaWhiskey
             lblUsername.Text = "Logged in as: " + GetUserName(UserID);
             lblPageHeader.Dock = DockStyle.Fill;
             this.Width = formWidth - 5;
+            this.Left = 0;
+            this.Top = 0;
         }
 
         private string GetUserName(int userID)
